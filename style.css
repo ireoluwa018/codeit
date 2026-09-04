@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --basecolor:#e2dac2;
+    --textcolor:black;
+    --primarycolor:#96710c;
+    --secondarycolor:#ee07ee;
+    --color1:#eeebc6c5;
+    --color2:#758520a1;
+    --color3:#a86808a1;
+
+}  
+body{
+    background:var(--basecolor) ;
+    padding: 1em;
+    font-style: var(--textcolor);
+}
+h1,h2,h3,h4,h5,h6{
+      font-family: "Caacupe One", sans-serif;
+      font-weight: 400;
+}
+p{
+   font-family: "Valley Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+nav{
+    margin:1em,auto,3em,auto;
+    width: min(100px,100%);
+}
+nav ul{
+   display: flex;
+   align-items: center;
+   list-style-type: none;
+   gap: 2em;
+}
+nav li:first-child{
+    margin-right: 800px;
+    font-family: "caacupe one",sans-serif;
+    font-weight: bold;
+}
+nav a{
+     text-decoration:none ;
+     color: var(--textcolor);
+     transition: 2.5s;
+}
+nav a:hover{
+    text-decoration: underline;
+    font-weight: 700;
+    background: lightblue;
+}
+header,section{
+    margin: 2em,auto;
+    width: min(75em,100%);
+    background-color: var(--color1);
+    padding: min(2em,13%);
+    border-radius: 1em;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3em;
+
+}
+header img{
+    max-width: 100%;
+    border-radius: 1em;
+    object-fit: cover;
+    object-position: bottom;
+    padding: 0px;
+    margin-right: 250px;
+
+}
+.text-container{
+    flex: 0 1 34em;
+
+}
+h1{
+    font-size: 2.5rem;
+}
+.text-container p{
+    margin: .75em 0 1em 0;
+    font-size: 1.25rem;
+
+}
+.cta-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: var(--primarycolor);
+    padding: .75em 1.25em;
+    border-radius: .5em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 2.5s;
+
+}
+.secondary{
+    background: var(--secondarycolor);
+    transition: 2.5s;
+}
+.cta-btn:hover{
+    background-color:  orange;
+
+}
+.secondary:hover{
+    background-color: lightpink;
+}
+.secondary:active{
+  cursor: progress;
+}
