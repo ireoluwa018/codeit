@@ -111,3 +111,7 @@ h1{
 .secondary:active{
   cursor: progress;
 }
+details{
+    font-family: "lexend",sans-serif;
+    margin-top: 20px;
+}
