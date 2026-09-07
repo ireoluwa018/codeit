@@ -115,3 +115,10 @@ details{
     font-family: "lexend",sans-serif;
     margin-top: 20px;
 }
+.little{
+    padding: 2em;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 300px;
+}
